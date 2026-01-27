@@ -1,0 +1,3 @@
+Backend engineer with experience in Python development, Docker containers,
+SQL database management, Git workflows, and Linux systems.
+Worked on scalable backend solutions and API-driven applications.

@@ -1,0 +1,3 @@
+Backend developer experienced in Python programming, database management,
+Git version control, and backend service development.
+Worked on multiple backend modules and data-driven applications.

@@ -1,0 +1,3 @@
+Software developer with experience in Python, SQL databases,
+backend API development, Git workflows, and application development.
+Worked on multiple backend-focused software projects.
