@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HR Dashboard</title>
+    <style>
+        body { font-family: Arial; background:#f4f6f9; }
+        .container { width:85%; margin:auto; padding:40px; }
+        h1 { color:#1e88e5; }
+        .card {
+            background:white; padding:30px;
+            margin-top:30px; border-radius:8px;
+        }
+        button {
+            padding:10px 25px;
+            background:#1e88e5; color:white;
+            border:none; border-radius:4px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>HR Dashboard</h1>
+
+    <div class="card">
+        <h2>Job Description Management</h2>
+        {% if jd_exists %}
+            <p>A Job Description is currently uploaded.</p>
+            <a href="/hr/delete_jd">Delete Job Description</a>
+        {% else %}
+            <form method="post" action="/hr/upload_jd" enctype="multipart/form-data">
+                <input type="file" name="jd" required>
+                <br><br>
+                <button>Upload Job Description</button>
+            </form>
+        {% endif %}
+    </div>
+
+    <div class="card">
+        <h2>Analyze Resumes</h2>
+        <form method="post" action="/hr/analyze" enctype="multipart/form-data">
+            <input type="file" name="resumes" multiple required>
+            <br><br>
+            <button>Run AI Screening</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

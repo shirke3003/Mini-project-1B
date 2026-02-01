@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>Readiness Report</title></head>
+<body>
+<h1>Job Readiness Report</h1>
+
+<p>TF-IDF Score: {{ tfidf }}%</p>
+<p>Semantic Score: {{ semantic }}%</p>
+<p>Overall Match: {{ final }}%</p>
+
+<h3>Matched Skills</h3>
+<ul>
+{% for s in matched %}<li>{{ s }}</li>{% endfor %}
+</ul>
+
+<h3>Skills to Improve</h3>
+<ul>
+{% for s in missing %}<li>{{ s }}</li>{% endfor %}
+</ul>
+
+<p>This is an advisory report. Selection decisions are made by HR.</p>
+</body>
+</html>

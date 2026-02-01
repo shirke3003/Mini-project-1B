@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HR Results</title>
+</head>
+<body>
+<h1>AI Screening Results</h1>
+<table border="1" cellpadding="10">
+<tr>
+    <th>Resume</th>
+    <th>Final Score</th>
+    <th>Shortlisted</th>
+</tr>
+{% for r in results %}
+<tr>
+    <td>{{ r[0] }}</td>
+    <td>{{ r[1] }}%</td>
+    <td>{{ r[2] }}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
