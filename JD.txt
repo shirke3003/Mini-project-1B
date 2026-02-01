@@ -1,0 +1,49 @@
+Job Description: Backend Software Developer
+
+We are seeking a motivated Backend Software Developer to join our development team. The ideal candidate should have a strong foundation in backend programming, database management, and API development, with the ability to work in collaborative and fast-paced environments.
+
+Key Responsibilities
+
+Design, develop, and maintain backend applications and services
+
+Build and integrate RESTful APIs for web applications
+
+Work with relational databases for data storage and retrieval
+
+Collaborate with frontend developers and cross-functional teams
+
+Maintain version control using Git and follow coding best practices
+
+Debug, test, and optimize backend performance
+
+Required Skills
+
+Proficiency in Python or similar backend programming languages
+
+Experience with SQL and database management systems
+
+Understanding of backend application architecture
+
+Familiarity with REST APIs and server-side development
+
+Knowledge of Git version control systems
+
+Problem-solving and analytical skills
+
+Preferred Skills
+
+Experience with Docker or containerized environments
+
+Basic knowledge of Linux systems
+
+Exposure to Agile development practices
+
+Understanding of backend security and performance optimization
+
+Work Environment
+
+Collaborative software development environment
+
+Opportunity to work on real-world backend systems
+
+Learning-oriented and growth-focused team
