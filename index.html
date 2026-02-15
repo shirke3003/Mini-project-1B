@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI-Powered Resume Screening System</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f9fc;
+            color: #111;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        /* Badge */
+        .badge {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #e8f0ff;
+            color: #2b6df6;
+            border-radius: 30px;
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+
+        /* Main Heading */
+        h1 {
+            font-size: 60px;
+            font-weight: bold;
+            margin: 0;
+            background: linear-gradient(to right, #2b6df6, #7a2cff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Subtitle */
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+            max-width: 700px;
+            margin: 25px auto;
+            color: #444;
+        }
+
+        /* Buttons */
+        .btn-group {
+            margin-top: 35px;
+        }
+
+        a.btn {
+            display: inline-block;
+            padding: 14px 34px;
+            font-size: 16px;
+            border-radius: 10px;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: 0.2s;
+        }
+
+        /* Primary button */
+        a.primary {
+            background: black;
+            color: white;
+        }
+
+        a.primary:hover {
+            opacity: 0.85;
+        }
+
+        /* Outline button */
+        a.outline {
+            border: 2px solid #ddd;
+            color: black;
+            background: white;
+        }
+
+        a.outline:hover {
+            background: #f1f1f1;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 80px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 280px;
+            background: white;
+            padding: 30px;
+            border-radius: 18px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            text-align: left;
+        }
+
+        .card h3 {
+            margin-top: 15px;
+            font-size: 20px;
+        }
+
+        .card p {
+            font-size: 15px;
+            margin: 12px 0 0;
+            color: #555;
+        }
+
+        /* Stats Bar */
+        .stats {
+            margin-top: 80px;
+            background: linear-gradient(to right, #2b6df6, #7a2cff);
+            border-radius: 18px;
+            padding: 45px 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            color: white;
+        }
+
+        .stat-box {
+            text-align: center;
+            margin: 15px;
+        }
+
+        .stat-box h2 {
+            font-size: 42px;
+            margin: 0;
+        }
+
+        .stat-box p {
+            margin: 8px 0 0;
+            font-size: 15px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Badge -->
+    <div class="badge">⚡ AI-Powered Recruitment</div>
+
+    <!-- Hero -->
+    <h1>Bias-Free Resume Screening</h1>
+
+    <p>
+        Harness the power of AI to build diverse, talented teams.
+        Our intelligent screening system evaluates candidates fairly,
+        focusing only on skills and qualifications — not demographics.
+    </p>
+
+    <!-- Buttons (FUNCTIONALITY SAME) -->
+    <div class="btn-group">
+        <a class="btn primary" href="/signup">Get Started</a>
+        <a class="btn outline" href="/login">Login</a>
+    </div>
+
+    <!-- Features Cards -->
+    <div class="features">
+
+        <div class="card">
+            <h3>🛡 Eliminate Bias</h3>
+            <p>
+                AI removes identifying information and ensures fair evaluation.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🧠 Smart Matching</h3>
+            <p>
+                Advanced algorithms rank candidates by skill-job alignment.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>⏳ Save Time</h3>
+            <p>
+                Screen hundreds of resumes quickly so recruiters focus on the best.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Stats Gradient Bar -->
+    <div class="stats">
+
+        <div class="stat-box">
+            <h2>95%</h2>
+            <p>Bias Reduction</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>10x</h2>
+            <p>Faster Screening</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>50k+</h2>
+            <p>Resumes Processed</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>98%</h2>
+            <p>Customer Satisfaction</p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
